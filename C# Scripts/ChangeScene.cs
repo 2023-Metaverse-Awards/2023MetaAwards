@@ -8,7 +8,7 @@ public class ChangeScene : MonoBehaviour
     void OnTriggerEnter(Collider other)
     {
         // Check if the object entering the trigger is your character
-        if (other.gameObject.tag == "Character")
+        if (other.gameObject.tag == "Chaacter")
         {
             SceneManager.LoadScene(NextLevel);
         }
